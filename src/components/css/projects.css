@@ -1,0 +1,144 @@
+#projectsMainDiv{
+    background-color: aqua;
+}
+#projectMainHeading{
+    padding:1rem;
+    /* border:1px solid red; */
+}
+.projectsDiv{
+    display: flex;
+    width:80%;
+    /* border:1px solid red; */
+    margin:2rem auto;
+}
+#projectImgDiv{
+    flex:1;
+    margin-bottom:2rem;
+}
+#projectDetailsDiv{
+    flex:2;
+    background-color: white;
+    margin-bottom:2rem;
+}
+
+.projectImg{
+    width:100%;
+    height:100%;
+}
+.projectsHeading{
+    text-align:center;
+    margin-top:4rem;
+}
+.projectDescription{
+    width:80%;
+    margin:auto;
+}
+.toolsUsedDiv{
+    /* background-color: aqua; */
+    display: flex;
+    width:80%;
+    margin:auto;
+}
+.toolsUsed{
+    flex:1;
+    /* border:1px solid red; */
+    margin-right:1rem;
+    border-radius:0.5rem;
+    color:black;
+    background-color: aqua;
+}
+.viewProjectButton{
+    background-color: aqua;
+    margin-bottom:1rem;
+    border-radius:0.5rem;
+    padding:0.3rem;
+    border:none;
+}
+.viewProjectAnchor{
+    text-decoration: none;
+    font-size:1rem;
+    padding:1rem;
+    color:black;
+ 
+}
+
+@media (max-width:1200px){
+    .projectsDiv{
+        width:90%;
+    }
+    
+    .projectsHeading{
+        margin-top:2.5rem;
+    }
+    .projectDescription{
+        width:85%;
+        font-size:0.75rem;
+    }
+    .toolsUsedDiv{
+        width:85%;
+    }
+    .viewProjectButton{
+        margin-top:0.7rem;
+    }
+    .viewProjectAnchor{
+        font-size:0.8rem;
+    }
+}
+
+@media (max-width:760px){
+    .projectsDiv{
+        width:90%;
+    }
+    .projectsHeading{
+        margin-top:2rem;
+        font-size:1rem;
+    }
+    .projectDescription{
+        width:90%;
+        font-size:0.7rem;
+    }
+    .toolsUsedDiv{
+        width:90%;
+    }
+    .toolsUsed{
+        font-size: 0.7rem;
+    }
+    .viewProjectButton{
+        margin-top:0.7rem;
+    }
+    .viewProjectAnchor{
+        font-size:0.7rem;
+    }
+}
+
+@media (max-width:480px){
+    .projectsDiv{
+        width:90%;
+        height:auto;
+    }
+    #projectImgDiv{
+      display: none;
+    }
+    .projectsHeading{
+        margin-top:1rem;
+        font-size:1rem;
+    }
+    .projectDescription{
+        width:90%;
+        font-size:0.7rem;
+    }
+    .toolsUsedDiv{
+        width:90%;
+    }
+    .toolsUsed{
+        font-size: 0.7rem;
+    }
+    .viewProjectButton{
+        margin-top:0.4rem;
+        margin-bottom:1rem;
+    }
+    .viewProjectAnchor{
+        font-size:0.64rem;
+    }
+}
+

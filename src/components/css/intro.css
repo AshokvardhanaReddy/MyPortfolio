@@ -1,0 +1,182 @@
+#introMainDiv {
+  display: flex;
+  /* border:1px solid red; */
+}
+.introLeftDiv {
+  flex: 3;
+}
+.introRightDiv {
+  flex: 2;
+  position: none;
+  /* background-color: black; */
+}
+#ashokImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#introLeftInfoDiv {
+  margin-top: 4rem;
+  /* border:1px solid red; */
+}
+#introLeftHello{
+  font-size:1.8rem;
+}
+#introLeftName {
+  margin-top: 0rem;
+  font-size:3rem;
+  /* border:1px solid black; */
+}
+
+
+#introLeftWebDiv {
+  height: 50px;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+#introLeftWebNameDiv {
+  height: 100px;
+  animation: move 2s ease-in-out infinite alternate;
+}
+#introLeftWebTitle {
+  height: 50px;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: green;
+  align-items: center;
+}
+@keyframes move {
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+#resumeButton{
+  font-size:2rem;
+  background-color: aqua;
+  padding:0.7rem 4rem;
+  /* border:1px solid red; */
+  border:none;
+
+}
+#resumeDiv{
+  /* border:1px solid red; */
+  margin:2rem 0rem 3rem;
+}
+#resumeButton:hover{
+  background-color: grey;
+  color:white;
+}
+#resumeAnchorTag{
+  text-decoration: none;
+  color:black;
+}
+#resumeAnchorTag:hover{
+  color:white;
+}
+
+
+@media(max-width:1280px){
+
+}
+
+@media(max-width:850px){
+  #introLeftInfoDiv {
+    margin-top: 3rem;
+    /* border:1px solid red; */
+  }
+  #introLeftHello{
+    font-size:1.5rem;
+  }
+  #introLeftName {
+    margin-top: 0rem;
+    font-size:2.5rem;
+    /* border:1px solid black; */
+  }
+  #introLeftWebTitle {
+    font-size: 1.5rem;
+  }
+  #resumeButton{
+    font-size:1.8rem;
+  }
+  #resumeDiv{
+    margin:1.5rem 0rem 3rem;
+  }
+}
+ 
+
+@media(max-width:600px){
+  #introMainDiv {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+  .introRightDiv {
+    background-color: white;
+  }
+  #ashokImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #introLeftInfoDiv {
+    margin-top: 2rem;
+    /* border:1px solid red; */
+  }
+  #introLeftHello{
+    font-size:1.5rem;
+  }
+  #introLeftName {
+    font-size:2rem;
+    /* border:1px solid black; */
+  }
+  #introLeftWebTitle {
+    font-size: 1.4rem;
+  }
+  #resumeButton{
+    font-size:1.5rem;
+    padding:0.5rem 3rem;
+  }
+  #resumeDiv{
+    margin:1.5rem 0rem 3rem;
+  }
+}
+
+@media(min-width:318px) and (max-width: 480px){
+  #introMainDiv {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+  .introRightDiv {
+    background-color: white;
+  }
+  #ashokImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #introLeftInfoDiv {
+    margin-top: 2rem;
+  }
+  #introLeftHello{
+    font-size:1rem;
+  }
+  #introLeftName {
+    font-size:1.5rem;
+
+  }
+  #introLeftWebTitle {
+    font-size: 1rem;
+  }
+  #resumeButton{
+    font-size:1rem;
+    padding:0.5rem 1.5rem;
+  }
+  #resumeDiv{
+    margin:1rem 0rem 3rem;
+  }
+
+}

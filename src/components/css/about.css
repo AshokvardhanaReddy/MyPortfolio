@@ -1,0 +1,72 @@
+
+#aboutMainDiv{
+    background-color: aqua;
+    border:1px solid aqua;
+    height:auto;
+   
+  }
+  #aboutHeading{
+    text-align: center;
+    font-size:3rem;
+    /* border:1px solid red; */
+    padding:1rem;
+  
+  }
+  #aboutTextDiv{
+    width:70%;
+    margin:auto;
+    /* border:1px solid red; */
+   
+  }
+  #aboutPara{
+    text-align: center;
+    font-size:1.4rem;
+  
+  }
+  
+  @media (max-width:450px){
+    #aboutMainDiv{
+        background-color: aqua;
+       
+    }
+    #aboutHeading{
+        font-size:1.5rem;
+    }
+    #aboutTextDiv{
+      font-size:0.5rem;
+    }
+  }
+  
+  
+  @media (max-width:760px){
+    #aboutHeading{
+        padding:1rem;
+    }
+    #aboutTextDiv{
+        width:70%;
+        margin:1rem auto 4rem;
+        /* border:1px solid red; */
+       
+    }
+    #aboutPara{
+        text-align: center;
+        font-size:1.5rem;
+    
+    }
+  }
+  
+  
+  @media (max-width:1280px){
+    #aboutHeading{
+        font-size:2rem;
+  
+    }
+    #aboutTextDiv{
+        width:80%;
+    }
+    #aboutPara{
+        width:100%;
+        font-size:1.3rem;
+        color:black;
+    }
+  }
